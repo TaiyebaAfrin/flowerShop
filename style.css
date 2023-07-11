@@ -15,10 +15,11 @@
   
 }
 .banner-details{
-    margin-right: 20px;
+    margin-right: 100px;
 }
 .banner-container .profile-pic{
     width: 500px;
+    margin-right: -80px;
 }
 
 .banner-title{
@@ -81,21 +82,83 @@ button{
 .featured-images{
     display: flex;
     justify-content: center;
+    padding-bottom: 150px;
+
 }
 .purpel-flower{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin-right: 24px;
+    padding-top: 100px;
+    width: 310px;
+    height: 428px;
+   
 }
 .ocenblue-flower{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     margin-right: 24px;
+    padding-top: 50px;
+    width: 340px;
+    height: 480px;
+
 }
 .gray-flower{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    padding-top: 80px;
+    width: 314px;
+    height: 450px;
 }
-.image-three{
+.gray-flower .image-three{
+    height: 450px;
 
 }
+
+/* featured folower text */
+.img-text{
+    padding-top: 20px;
+    text-align: center;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}   
+#ocennbluetext{
+    margin-top: 110px;
+}
+
+/* Icon box container*/
+.icon-container{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+    margin: 0px 170px;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 110px;
+
+}
+.icon-three{
+
+}
+.icon-text{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px; 
+    margin-right: 37px;
+
+}
+
+.icon-icon{
+    margin-left: 36px
+}
+
+/* Hot Deal ! Sale Up To 25% Off */
