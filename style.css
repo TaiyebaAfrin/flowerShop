@@ -45,7 +45,7 @@ button{
     padding: 15px 35px;
     border: none;
 }
-.banner-details .three-btn{
+.three-btn{
     color: #FFF;
     font-family: Lato;
     font-size: 15px;
@@ -58,6 +58,7 @@ button{
     padding: 100px;
 
 }
+/* same class must add becoz four section title same code */
 .primary-title-four{
     color: #272727;
     text-align: center;
@@ -65,6 +66,7 @@ button{
     font-size: 40px;
     font-weight: 800;
     padding-top: 24px;
+    margin-bottom: 20px;
 }
 .small-description{
     color: rgba(39, 39, 39, 0.60);
@@ -143,9 +145,6 @@ button{
     margin-bottom: 110px;
 
 }
-.icon-three{
-
-}
 .icon-text{
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
@@ -162,3 +161,158 @@ button{
 }
 
 /* Hot Deal ! Sale Up To 25% Off */
+.hot-deal-container{
+    padding: 100px 0px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 300px;
+    justify-content: center;
+
+}
+.banner-title-left{
+    margin: 100px;
+    width: 50%;
+}
+
+.primary-title-one{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.small-description-one{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sign-btn{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    margin-top: 20px;
+}
+.banner-title-left{
+    text-align: center;
+}
+
+/* instagram */
+.Instagram-container{
+    background: #FFF;
+    margin-top: 100px;
+
+}
+.primary-title-two{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.small-description-two{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+/* images 4 */
+/* .images-container{
+    margin: 50px 0px 50px 0px;
+    width: 500px;
+    height: 450px;
+} */
+.four-image-row{
+    display: flex;
+    margin: 80px 0px;
+    width: 20%;
+
+}
+
+.four-image-1{
+    padding-right: 10px;
+    padding-left: 13px;
+
+}
+.four-image-2{
+    padding-right: 10px;
+
+}
+.four-image-3{
+    padding-right: 10px;
+
+}
+
+/* banner signup */
+
+.get-the-deals{
+    background-image: url(images/Rectangle\ 9.png);
+    margin: 0px 100px;
+    height: 500px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.primary-title-three{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.small-description-three{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Input */
+label{
+  justify-content: center;
+  align-items: center;
+
+}
+input{
+    border-radius: 8px;
+    background: #FFF;
+}
+/* footer */
+footer{
+    background-color: black;
+    padding: 100px;
+}
+.f-heading{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+span{
+    color: rgba(255, 255, 255, 0.90);
+}
+.f-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+}
