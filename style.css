@@ -198,6 +198,13 @@ button{
 .banner-title-left{
     text-align: center;
 }
+.imgbanner-contain {
+    margin-right: 100px;
+}
+.imgbanner-contain img{
+    max-height: 300px
+    
+}
 
 /* instagram */
 .Instagram-container{
@@ -224,12 +231,7 @@ button{
     line-height: 30px;
 
 }
-/* images 4 */
-/* .images-container{
-    margin: 50px 0px 50px 0px;
-    width: 500px;
-    height: 450px;
-} */
+
 .four-image-row{
     display: flex;
     margin: 80px 0px;
